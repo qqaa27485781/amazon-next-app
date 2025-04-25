@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "幾小時內搭建 AI SaaS 創業項目 | ShipAny",
+    "description": "ShipAny 是一個用於構建 AI SaaS 創業項目的 NextJS 模板，提供各種模板和元件，快速啟動。",
+    "keywords": "ShipAny, AI SaaS 模板, NextJS 模板"
+  },
+  "user": {
+    "sign_in": "登入",
+    "sign_out": "登出",
+    "credits": "點數",
+    "api_keys": "API 金鑰",
+    "my_orders": "我的訂單"
+  },
+  "sign_modal": {
+    "sign_in_title": "登入",
+    "sign_in_description": "登入您的帳戶",
+    "sign_up_title": "註冊",
+    "sign_up_description": "創建一個帳戶",
+    "email_title": "電子郵件",
+    "email_placeholder": "在此輸入您的電子郵件",
+    "password_title": "密碼",
+    "password_placeholder": "在此輸入您的密碼",
+    "forgot_password": "忘記密碼？",
+    "or": "或",
+    "continue": "繼續",
+    "no_account": "沒有帳戶？",
+    "email_sign_in": "使用電子郵件登入",
+    "google_sign_in": "使用 Google 登入",
+    "github_sign_in": "使用 GitHub 登入",
+    "close_title": "關閉",
+    "cancel_title": "取消"
+  },
+  "my_orders": {
+    "title": "我的訂單",
+    "description": "用 ShipAny 支付的訂單。",
+    "no_orders": "找不到訂單",
+    "tip": "",
+    "activate_order": "啟用訂單",
+    "actived": "已啟用",
+    "join_discord": "加入 Discord",
+    "read_docs": "閱讀文檔",
+    "table": {
+      "order_no": "訂單編號",
+      "email": "電子郵件",
+      "product_name": "產品名稱",
+      "amount": "金額",
+      "paid_at": "付款時間",
+      "github_username": "GitHub 用戶名",
+      "status": "狀態"
+    }
+  },
+  "my_credits": {
+    "title": "我的點數",
+    "left_tip": "剩餘點數：{left_credits}",
+    "no_credits": "沒有點數記錄",
+    "recharge": "充值",
+    "table": {
+      "trans_no": "交易編號",
+      "trans_type": "交易類型",
+      "credits": "點數",
+      "updated_at": "更新時間",
+      "status": "狀態"
+    }
+  },
+  "api_keys": {
+    "title": "API 金鑰",
+    "tip": "請妥善保管您的 API 金鑰以避免洩漏",
+    "no_api_keys": "沒有 API 金鑰",
+    "create_api_key": "創建 API 金鑰",
+    "table": {
+      "name": "名稱",
+      "key": "金鑰",
+      "created_at": "創建時間"
+    },
+    "form": {
+      "name": "名稱",
+      "name_placeholder": "API 金鑰名稱",
+      "submit": "提交"
+    }
+  },
+  "blog": {
+    "title": "部落格",
+    "description": "關於 ShipAny 的新聞、資源和更新",
+    "read_more_text": "閱讀更多"
+  },
+  "AIGenerator": {
+    "title": "您的 AI 生成器",
+    "description": "瞬間創建令人驚嘆的 AI 生成內容",
+    "badges": {
+      "free": "100% 免費",
+      "aiPowered": "AI 驅動",
+      "noRegistration": "無需註冊",
+      "unlimited": "無限生成"
+    },
+    "generator": {
+      "title": "AI 內容生成器",
+      "placeholder": "描述您想要生成的內容...",
+      "tip": "提示：使用詳細描述以獲得更好的結果",
+      "options": {
+        "aspect": "標準比例",
+        "style": "無風格",
+        "color": "無顏色",
+        "lighting": "無光照",
+        "composition": "無構圖"
+      },
+      "settings": {
+        "highQuality": "高質量",
+        "removeBackground": "移除背景"
+      },
+      "actions": {
+        "clear": "清除",
+        "random": "隨機",
+        "generate": "生成"
+      }
+    },
+    "inspiration": {
+      "title": "獲取靈感",
+      "description": "從其他用戶創建的內容中獲取創意靈感",
+      "example": "生成內容示例"
+    }
+  }
+} 

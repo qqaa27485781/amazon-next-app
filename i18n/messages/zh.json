@@ -1,0 +1,229 @@
+{
+  "metadata": {
+    "title": "几小时内构建任何 AI SaaS 创业项目 | ShipAny",
+    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，提供各种模板和组件，帮助您快速启动。",
+    "keywords": "ShipAny, AI SaaS 模板, NextJS 模板"
+  },
+  "user": {
+    "sign_in": "登录",
+    "sign_out": "退出登录",
+    "credits": "额度",
+    "api_keys": "API 密钥",
+    "my_orders": "我的订单"
+  },
+  "sign_modal": {
+    "sign_in_title": "登录",
+    "sign_in_description": "登录您的账户",
+    "sign_up_title": "注册",
+    "sign_up_description": "创建新账户",
+    "email_title": "邮箱",
+    "email_placeholder": "请输入您的邮箱",
+    "password_title": "密码",
+    "password_placeholder": "请输入您的密码",
+    "forgot_password": "忘记密码？",
+    "or": "或",
+    "continue": "继续",
+    "no_account": "还没有账户？",
+    "email_sign_in": "使用邮箱登录",
+    "google_sign_in": "使用 Google 登录",
+    "github_sign_in": "使用 GitHub 登录",
+    "close_title": "关闭",
+    "cancel_title": "取消"
+  },
+  "my_orders": {
+    "title": "我的订单",
+    "description": "在 ShipAny 上购买的订单。",
+    "no_orders": "未找到订单",
+    "tip": "",
+    "activate_order": "激活订单",
+    "actived": "已激活",
+    "join_discord": "加入 Discord",
+    "read_docs": "阅读文档",
+    "table": {
+      "order_no": "订单号",
+      "email": "邮箱",
+      "product_name": "产品名称",
+      "amount": "金额",
+      "paid_at": "支付时间",
+      "github_username": "GitHub 用户名",
+      "status": "状态"
+    }
+  },
+  "my_credits": {
+    "title": "我的积分",
+    "left_tip": "剩余积分: {left_credits}",
+    "no_credits": "没有积分记录",
+    "recharge": "充值",
+    "table": {
+      "trans_no": "交易号",
+      "trans_type": "交易类型",
+      "credits": "积分",
+      "updated_at": "更新时间",
+      "status": "状态"
+    }
+  },
+  "api_keys": {
+    "title": "API 密钥",
+    "tip": "请妥善保管您的 API 密钥，避免泄露",
+    "no_api_keys": "没有 API 密钥",
+    "create_api_key": "创建 API 密钥",
+    "table": {
+      "name": "名称",
+      "key": "密钥",
+      "created_at": "创建时间"
+    },
+    "form": {
+      "name": "名称",
+      "name_placeholder": "API 密钥名称",
+      "submit": "提交"
+    }
+  },
+  "blog": {
+    "title": "博客",
+    "description": "关于 ShipAny 的新闻、资源和更新",
+    "read_more_text": "阅读更多"
+  },
+  "AIGenerator": {
+    "title": "您的AI生成器",
+    "description": "在几秒钟内创建令人惊叹的AI生成内容",
+    "badges": {
+      "free": "100% 免费",
+      "aiPowered": "由 AI 技术提供支持",
+      "noRegistration": "无需注册",
+      "unlimited": "无限生成"
+    },
+    "generator": {
+      "title": "AI 内容生成器",
+      "placeholder": "描述您想要生成的内容...",
+      "tip": "提示: 使用更详细的描述获得更好的结果",
+      "options": {
+        "aspect": "标准比例",
+        "style": "无风格",
+        "color": "无颜色",
+        "lighting": "无光照",
+        "composition": "无构图"
+      },
+      "settings": {
+        "highQuality": "高质量",
+        "removeBackground": "移除背景"
+      },
+      "actions": {
+        "clear": "清除",
+        "random": "随机",
+        "generate": "生成"
+      }
+    },
+    "inspiration": {
+      "title": "获取灵感",
+      "description": "从其他用户创建的内容中获取创作灵感",
+      "example": "示例生成内容"
+    }
+  },
+  "AmazonAnalysis": {
+    "title": "亚马逊市场分析",
+    "description": "分析亚马逊市场数据，助力制定产品策略",
+    "badges": {
+      "realtime": "实时分析",
+      "keywords": "关键词挖掘",
+      "insights": "市场洞察",
+      "competitors": "竞品分析"
+    },
+    "search": {
+      "title": "关键词分析",
+      "description": "输入关键词进行Amazon市场数据分析",
+      "placeholder": "输入产品关键词（例如：wireless headphones）",
+      "selectMarket": "选择市场",
+      "markets": {
+        "us": "美国",
+        "uk": "英国",
+        "de": "德国",
+        "ca": "加拿大",
+        "jp": "日本"
+      },
+      "analyze": "分析",
+      "analyzing": "分析中...",
+      "popularSearches": "热门搜索:",
+      "keywords": {
+        "wireless": "无线耳机",
+        "electronics": "电子配件",
+        "smarthome": "智能家居",
+        "phonecase": "手机壳"
+      }
+    },
+    "feedback": {
+      "title": "您的反馈很重要",
+      "description": "请帮助我们通过您的建议和意见改进我们的亚马逊分析工具",
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "email": "邮箱",
+      "emailPlaceholder": "您的邮箱地址",
+      "message": "留言",
+      "messagePlaceholder": "您的反馈或建议",
+      "rating": "为您的体验评分",
+      "submit": "提交反馈",
+      "submitting": "提交中...",
+      "successMessage": "感谢您的反馈！我们非常重视您的意见。",
+      "errorMessage": "抱歉，提交反馈时出现问题。请重试。"
+    },
+    "results": {
+      "analyzing": "正在分析",
+      "tabs": {
+        "overview": "概览",
+        "keywords": "关键词分析",
+        "competitors": "竞品分析",
+        "trends": "趋势洞察"
+      },
+      "overview": {
+        "title": "市场概览",
+        "description": "关键词的整体市场情况",
+        "searchVolume": "月搜索量",
+        "averagePrice": "平均价格",
+        "competitionLevel": "竞争强度",
+        "activeSellers": "个活跃卖家",
+        "vsLastMonth": "vs 上月"
+      },
+      "keywords": {
+        "title": "关键词分析",
+        "description": "相关关键词及其数据",
+        "table": {
+          "keyword": "关键词",
+          "searchVolume": "月搜索量",
+          "competitionLevel": "竞争强度",
+          "costPerClick": "点击成本",
+          "conversionRate": "转化率"
+        }
+      },
+      "competitors": {
+        "title": "竞品分析",
+        "description": "主要竞争对手的产品情况",
+        "noData": "没有找到相关竞品数据。",
+        "tryDifferent": "请尝试使用不同的关键词，或者检查API连接是否正常。",
+        "table": {
+          "product": "产品",
+          "price": "价格",
+          "rating": "评分",
+          "reviewCount": "评论数",
+          "rank": "排名"
+        },
+        "reviewCount": "评论数",
+        "price": "价格"
+      },
+      "trends": {
+        "title": "趋势洞察",
+        "description": "关键词和市场趋势分析",
+        "hotTrends": "热门趋势",
+        "seasonalTrends": "季节性趋势",
+        "salesTrend": "销量趋势",
+        "seasonalNote": "销量在假日季节（11月-12月）显著上升，学校开学季（8月-9月）也有小幅增长。",
+        "opportunities": "机会点"
+      },
+      "competitionLevels": {
+        "veryHigh": "很高",
+        "high": "高",
+        "medium": "中",
+        "low": "低",
+        "veryLow": "很低"
+      }
+    }
+  }
+}
