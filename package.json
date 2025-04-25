@@ -10,9 +10,10 @@
     "start": "NODE_NO_WARNINGS=1 next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true pnpm build",
-    "cf:build": "npx @cloudflare/next-on-pages",
-    "cf:preview": "pnpm cf:build && wrangler pages dev",
-    "cf:deploy": "pnpm cf:build && wrangler pages deploy"
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "pages:deploy": "npm run pages:build && wrangler pages deploy .vercel/output/static",
+    "pages:watch": "npx @cloudflare/next-on-pages --watch",
+    "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2024-01-01"
   },
   "dependencies": {
     "@ai-sdk/openai": "^1.0.18",
