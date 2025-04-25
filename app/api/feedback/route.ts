@@ -25,6 +25,8 @@ const SMTP_USER = process.env.SMTP_USER || 'user@example.com';
 const SMTP_PASS = process.env.SMTP_PASS || 'password';
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@example.com';
 
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
   try {
     // Parse request body
