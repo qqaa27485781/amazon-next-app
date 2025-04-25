@@ -74,3 +74,9 @@ npm run cf:deploy
 ## License
 
 - [ShipAny AI SaaS Boilerplate License Agreement](LICENSE)
+
+NODE_VERSION=18
+NEXT_PUBLIC_API_URL=https://your-project-name.pages.dev
+NEXTAUTH_URL=https://your-project-name.pages.dev
+NEXTAUTH_SECRET=your-secret-key
+NEXT_TELEMETRY_DISABLED=1
